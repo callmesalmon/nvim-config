@@ -1,3 +1,61 @@
 MochaVim
 --------
-MochaVim is a lightweight Neovim config simply focusing on giving beginners a starting point! It uses the *lazy.nvim* plugins manager, has autopairs installed, has some colour-schemes. So, yeah, enjoy! 
+![Version](https://img.shields.io/badge/version-1.0.0-green) ![Language](https://img.shields.io/badge/lang-lua-darkblue?logo=lua)<br>
+MochaVim is a lightweight Neovim config simply focusing on giving beginners a starting point! It uses the *lazy.nvim* plugins
+manager, has autopairs installed, and has some colour-schemes!
+
+Install
+--------
+### Download for Linux/Mac (Unix)
+```shell
+# Backup your current config
+mv ~/.config/nvim ~/.config/nvim.bak
+mv ~/.local/share/nvim ~/.local/share/nvim.bak
+mv ~/.local/state/nvim ~/.local/state/nvim.bak
+mv ~/.cache/nvim ~/.cache/nvim.bak
+
+# Clone the repo
+git clone --depth 1 https://github.com/ElisStaaf/MochaVim ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+
+# Run neovim
+nvim
+```
+
+### Download for Windows (PowerShell)
+```pwsh
+# Backup your current config
+Rename-Item -Path $env:LOCALAPPDATA\nvim -NewName $env:LOCALAPPDATA\nvim.bak
+Rename-Item -Path $env:LOCALAPPDATA\nvim-data -NewName $env:LOCALAPPDATA\nvim-data.bak
+
+# Clone the repo
+git clone --depth 1 https://github.com/ElisStaaf/MochaVim $env:LOCALAPPDATA\nvim
+
+# Run neovim
+nvim
+```
+
+Table of contents
+--------
+The file structure of the config looks like this: 
+
+<pre>nvim
+|
+| - init.lua
+|
+| - lua
+    |
+    | - config
+    |   | - lazy.lua
+    |   | - colo.lua
+    |
+    | - plugins
+         | - autopairs.lua
+         | - telescope.lua</pre>
+
+Let's take a look, the `init.lua` file is used for strapping everything together, it's pretty fragile, so modify at your own risk.
+Then we enter the `lua` directory, this stores most of our `.lua` files. Let's move further in. In the `config` directory you'll
+find some configurations that you are free to modify, but is generally not recommended. Get ready to `cd ..`, because we're going
+to the next item in the `lua` directory: `plugins`. The plugin manager that MochaVim uses is lazy.nvim, you might have noticed
+that fact while we were in the `config` directory and saw the `lazy.lua` file! Anyways, let's get continue. There are *some*
+preinstalled plugins. 
