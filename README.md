@@ -1,2 +1,3 @@
-# Qnvim
-Qnvim; A lightweight Neovim config to get you started Quickly! See what i did there? Q-uickly, Q-Nvim? Okay sorry.
+MochaVim
+--------
+MochaVim is a lightweight Neovim config simply focusing on giving beginners a starting point! It uses the *lazy.nvim* plugins manager, has autopairs installed, has some colour-schemes. So, yeah, enjoy! 
