@@ -1,6 +1,8 @@
 -- == Colorschemes ==
--- File for colorschemes,
--- add them here.
+--[[ 
+File for colorschemes,
+add them here. 
+]]
 
 return {
   { "folke/tokyonight.nvim" },
