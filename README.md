@@ -59,7 +59,7 @@ Let's take a look, the `init.lua` file is used for strapping everything together
 Then we enter the `lua` directory, this stores most of our `.lua` files. Let's move further in. In the `config` directory you'll
 find some configurations that you are free to modify, but is generally not recommended. Get ready to `cd ..`, because we're going
 to the next item in the `lua` directory: `plugins`. The plugin manager that MochaVim uses is lazy.nvim, you might have noticed
-that fact while we were in the `config` directory and saw the `lazy.lua` file! Anyways, let's continue. While there are *some*
+that fact while we were in the `config` directory and saw the `lazy.lua` file! Anyways, lets continue. While there are *some*
 preinstalled plugins, there are not a lot, so i will provide you with a guide on how to add some. 
 
 Plugins
