@@ -1,7 +1,8 @@
 -- == Autopairs ==
--- For your pleasure,
--- i have added the 
--- "Autopairs" plugin.
+--[[ For your pleasure,
+i have added the 
+"Autopairs" plugin. 
+]]
 
 return {
   {
