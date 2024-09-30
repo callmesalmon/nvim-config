@@ -1,6 +1,6 @@
 MochaVim
 --------
-![Version](https://img.shields.io/badge/version-1.0.0-green) ![Language](https://img.shields.io/badge/lang-lua-darkblue?logo=lua)<br>
+![Version](https://img.shields.io/badge/version-1.1.0-green) ![Language](https://img.shields.io/badge/lang-lua-darkblue?logo=lua)<br>
 MochaVim is a lightweight Neovim config simply focusing on giving beginners a starting point! It uses the *lazy.nvim* plugins
 manager, has autopairs installed, and has some colour-schemes!
 
@@ -40,27 +40,27 @@ nvim
 Table of contents
 --------
 The file structure of the config looks like this: 
-
-<pre>nvim
-|
-| - init.lua
-|
-| - lua
-    |
-    | - config
-    |   | - lazy.lua
-    |   | - colo.lua
-    |
-    | - plugins
-         | - autopairs.lua
-         | - telescope.lua</pre>
+```
+~/.config/nvim
+    ├── init.lua
+    ├── lazy-lock.json
+    └── lua
+        ├── options.lua
+        └── plugins
+            ├── alpha.lua
+            ├── autopairs.lua
+            ├── dracula.lua
+            ├── lualine.lua
+            ├── neo-tree.lua
+            ├── oil.lua
+            └── telescope.lua
+```
 
 Let's take a look, the `init.lua` file is used for strapping everything together, it's pretty fragile, so modify at your own risk.
-Then we enter the `lua` directory, this stores most of our `.lua` files. Let's move further in. In the `config` directory you'll
-find some configurations that you are free to modify, but is generally not recommended. Get ready to `cd ..`, because we're going
-to the next item in the `lua` directory: `plugins`. The plugin manager that MochaVim uses is lazy.nvim, you might have noticed
-that fact while we were in the `config` directory and saw the `lazy.lua` file! Anyways, lets continue. While there are *some*
-preinstalled plugins, there are not a lot, so i will provide you with a guide on how to add some. 
+Then we enter the `lua` directory, this stores most of our `.lua` files. Let's move further in, to the directory: `plugins`. The 
+plugin manager that MochaVim uses is lazy.nvim, you might have noticed that fact while we were in the `init.lua` file and saw the 
+`lazy.lua` file! Anyways, lets continue. While there are *some* preinstalled plugins, there are not a lot, so i will provide you 
+with a guide on how to add some. 
 
 Plugins
 --------
