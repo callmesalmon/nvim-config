@@ -25,11 +25,7 @@ return {
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
       local lspconfig = require("lspconfig")
 
-
-      lspconfig.solargraph.setup({
-        capabilities = capabilities
-      })
-      lspconfig.html.setup({
+      lspconfig.clangd.setup({
         capabilities = capabilities
       })
       lspconfig.lua_ls.setup({
