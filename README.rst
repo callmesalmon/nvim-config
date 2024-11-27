@@ -1,12 +1,12 @@
 MochaVim
 --------
-.. image:: https://img.shields.io/badge/build%20(fedora)-passing-blue?logo=fedora&style=for-the-badge
+.. image:: https://img.shields.io/badge/build%20(fedora)-passing-blue?logo=fedora
    :alt: Build = Passing
    :target: https://github.com/ElisStaaf/MochaVim
-.. image:: https://img.shields.io/badge/version-1.0.0-2dd245?style=for-the-badge
+.. image:: https://img.shields.io/badge/version-1.0.0-2dd245
    :alt: Version = 1.0.0
    :target: https://github.com/ElisStaaf/MochaVim
-.. image:: https://img.shields.io/badge/lang-lua-darkblue?logo=lua&style=for-the-badge
+.. image:: https://img.shields.io/badge/lang-lua-darkblue?logo=lua
    :alt: Language = Lua
    :target: https://github.com/ElisStaaf/MochaVim
 
