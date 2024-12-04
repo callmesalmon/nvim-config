@@ -1,5 +1,5 @@
 MochaVim
---------
+========
 .. image:: https://img.shields.io/badge/build%20(fedora)-passing-blue?logo=fedora
    :alt: Build = Passing
    :target: https://github.com/ElisStaaf/MochaVim
