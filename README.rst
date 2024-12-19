@@ -13,7 +13,7 @@ MochaVim
 MochaVim is a lightweight Neovim config simply focusing on giving beginners a starting point! It uses the 
 *lazy.nvim* plugin manager, has autopairs installed, and has some colour-schemes!
 
-.. image:: ./mochaimg.png
+.. image:: ./prod/mochaimg.png
    :alt: MochaVim
    :target: https://github.com/ElisStaaf/MochaVim
 
